@@ -5,6 +5,8 @@ import android.app.Activity;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import org.w3c.dom.Text;
+
 public class sudoku {
     private int type;
     private String name;
@@ -14,6 +16,11 @@ public class sudoku {
         this.name = name;
         this.time = time;
     }
+
+    public sudoku(int type) {
+        this.type = type;
+    }
+
     public int getType(){
         return type;
     }
