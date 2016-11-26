@@ -12,5 +12,72 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="    TRY AGAIN!"
+        android:singleLine="false"
+        android:textSize="50dp"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:textIsSelectable="true"
+        android:textStyle="bold|italic"
+        android:textColor="#ee0e0e"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"></RadioGroup>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOME"
+            android:id="@+id/button"
+            android:layout_gravity="bottom"
+            android:shadowColor="@color/abc_secondary_text_material_dark"
+            android:singleLine="true"
+            android:textSize="40dp"
+            android:textColor="#252a8d" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/redo"
+            android:id="@+id/button2"
+            android:layout_gravity="bottom"
+            android:shadowColor="@color/abc_secondary_text_material_dark"
+            android:singleLine="true"
+            android:textSize="40dp"
+            android:textColor="#252a8d" />
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="572dp"
+        android:contentDescription="" />
+
 </RelativeLayout>
