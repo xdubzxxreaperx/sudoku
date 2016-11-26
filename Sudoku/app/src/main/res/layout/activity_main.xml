@@ -18,7 +18,9 @@
         android:alpha="0.4"
         android:scaleType="fitXY"
         android:src="@drawable/sudoku_icon"
-        android:id="@+id/imageView2" />
+        android:id="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -27,7 +29,7 @@
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:textSize="40dp"
+        android:textSize="50dp"
         android:layout_alignTop="@+id/button2"
         android:textColor="#ef0e0e" />
 
@@ -38,7 +40,7 @@
         android:id="@+id/button2"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:textSize="40dp"
+        android:textSize="50dp"
         android:textColor="#e81717" />
 
     <TextView
@@ -47,19 +49,19 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Try Again"
         android:id="@+id/textView"
-        android:textSize="50dp"
+        android:textSize="70dp"
         android:layout_alignTop="@+id/imageView2"
         android:layout_centerHorizontal="true"
-        android:textStyle="normal|bold|italic"
-        android:textColor="#eb0202" />
+        android:textStyle="bold|italic"
+        android:textColor="#8d3ae1" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:id="@+id/imageView"
         android:src="@drawable/finger"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"/>
+        android:layout_centerVertical="true" />
 
 
     >>>>>>> origin/master
@@ -100,9 +102,5 @@
 
 
 
-]]>
-</ListView>
-   
->>>>>>> origin/master
->>>>>>> origin/master
-</RelativeLayout>
+
+
