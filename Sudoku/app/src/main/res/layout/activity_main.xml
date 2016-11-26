@@ -1,27 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
+    android:layout_margin="0dp"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.s2012088.sudoku.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:textSize="60dp"
-        android:layout_height="wrap_content"
-        android:textStyle="italic"
-        android:text="Congraulations!" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"
+        android:scaleType="fitXY"
+        android:src="@drawable/sudoku_icon" />
 
-</RelativeLayout>x<![CDATA[=======
-        android:text="Select Level"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textColor="#000000"
+        android:layout_marginTop="47dp"
+        android:text="Sudoku"
+        android:textColor="#1803fa"
+        android:textSize="60dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+<<<<<<< HEAD
+        android:textSize="35dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:text="     Congraulations!"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#102094"
         android:id="@+id/textView" />
 
-    >>>>>>> origin/master
-]]>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/abc_search_url_text"
+        android:textStyle="bold|italic"
+        android:textSize="40dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:id="@+id/button2"
+        android:textStyle="bold|italic"
+        android:textColor="@color/abc_search_url_text"
+        android:textSize="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/textView" />
+
+</RelativeLayout>
+=======
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Welcome,  player!!"
+        android:textColor="#000000"
+        android:textSize="60dp"
+        android:textStyle="bold|italic"
+        android:theme="@android:style/Animation.Activity" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:background="@color/primary_dark_material_light"
+
+
+        android:gravity="center"
+        android:text="    START~~  "
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/textView_selectLV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Select Level"
+        android:textColor="#000000"
+        android:textSize="60dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"></ListView>
+   
+</RelativeLayout>
+>>>>>>> origin/master
